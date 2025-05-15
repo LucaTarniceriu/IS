@@ -1,0 +1,39 @@
+Imprumut carte:
+*Nume: imprumut carte
+*Scurta descriere: un membru al bibliotecii imprumuta o carte
+*Preconditie: Clientul trebuie sa fie membru al bibliotecii
+*Postconditie: Clientul nu a depasit limita de carti imprumutate
+*Situatii de eroare: Cartea imprumutata nu mai este pe stoc
+*Stare sistem: Clientul nu imprumuta cartea
+*Actori: Clientul
+*Declansator: Clientul cere imprumut carte:
+*Proces standard: 
+	1. Clientul se logheaza ca membru
+	2. Clientul face o cerere pentru imprumutare
+	3. Se verifica limita de carti imprumutate
+	4. Se verifica stoc carte
+	5. Clientul imprumuta cartea
+*Proces alternativ:
+	1' Logare esuata
+	2' Stoc indisponibil
+	3' Limita depasita
+
+Extindere imprumut:
+*Nume: extindere imprumut
+*Scurta descriere: un membru al bibliotecii extinde imprumutul unei carti
+*Preconditie: Clientul a imprumutat o carte
+*Postconditie: Clientul nu a depasit limita de timp imprumut
+*Situatii de eroare: Un alt client a rezervat cartea
+*Stare sistem: Clientul nu extinde imprumutul
+*Actori: Clientul
+*Declansator: Clientul cere extindere imprumut
+*Proces standad:
+	1. Clientul a imprumutat o carte
+	2. Clientul face o cerere de extindere imprumut
+	3. Se verifica limita timp extindere
+	4. Se verifica rezervari carte
+	5. Clientul extinde imprumutul
+*Proces alternativ: 
+	1' Clientul nu a imprumutat cartea
+	2' Limita timp depasita
+	3' Cartea rezervata

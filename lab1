@@ -1,0 +1,19 @@
+2. UML este o un limbaj de modelare standardizat pentru proiectare si vizulaizare a designului unui sistem/ aplicatie care utilizeaza un set integrat de diagrame
+
+3. Modelele sunt reprezentari abstractizate ale unui sistem
+
+5. Tipuri de digrame
+
+	diagrame de structura: modeleaza structura unui sistem din diferite perspective
+	diagrame de comportament: definesc consecintele directe ale actiunilor obiectelor, modificari in timp asupra starii obiectelor
+
+	ambele tipuri de diagrame ajuta la definirea sistemului care este dezvlotat intr-un mod cat mai simplu de inteles si de implementat
+	diagramele de structura se concentreaza pe modul in care software-ul este alcatuit sau construit, iar diagramele de comportament se concentreaza pe modul in care sistemul functioneaza si toate componentele sale interactioneaza.
+
+6. 
+	class diagram: specifica structurile de date,  obiectele dintr-un sistem, si relatile dintre ele
+	use case diagram: defineste cerintele pe care trebuie sa le indeplineasca un sistem
+	activity diagram: defineste procesele software-ului
+	sequence diagram: descrie interactiunile dintre obiecte pentru a indeplini o cerinta
+	state machine diagram: descrie ciclul de viata al unui obiect in sistem
+

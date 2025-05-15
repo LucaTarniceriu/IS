@@ -1,0 +1,11 @@
+clasa Student are atributele private: nume, adresa, nrTelefon, email, IDstudent, medianotelor, functia statica esteEligibilInscriere() si functia publica getSeminariiAlese().
+
+clasa Inscriere are atributul privat notePrimite si functiile publice: getMediaLaZi() si getNotaFinala()
+
+clasa Seminar are atributele private: nume, IDseminar, taxe si functiile publice addStudent() si dropStudent()
+
+clasa Profesor are  atributele private: nume, adresa, nrTelefon, email, salar
+
+un student poate avea una sau mai multe inscrieri
+la seminarii pot fi pe lista de asteptare 0 sau mai multi studenti
+seminariile sunt predate de maxim un profesor

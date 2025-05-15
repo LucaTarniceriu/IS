@@ -1,0 +1,26 @@
+1. sistem inchiriere masini
+
+-> anulare rezervare
+
+    1. selectare rezervare
+        Clientul selecteaza rezervarea pe care doreste sa o anuleze
+    2. afiseaza ecran rezervare
+        Sistemul afiseaza un ecran cu detaliile rezervarii selectate, cu optiunea anularii
+    3. anuleaza rezervarea
+        Clientul selecteaza anularea rezervarii
+    4. returnare plata
+        Sistemul afiseaza pretul pentru inchiriere si cere datele de returnarea a platii
+    5. stergerea inregistrarii inchirierii
+        Sistemul sterge  numarul de inregistrare a inchirierii 
+        
+    cazul de utilizare se incheie
+    
+    
+-> vizualizare rezervari
+
+    1. selectare optiuni vizulaizare rezervari
+        utilizatorul acceseaza optiunea de vizualizare rezervari
+    2. ecran lista rezervari
+        sistemul afiseaza ecranul cu lista rezervarilor utilizatorului
+    3. detalii rezervari individuale
+        utilizatorul poate accesa ecranele cu rezervarile individuale
